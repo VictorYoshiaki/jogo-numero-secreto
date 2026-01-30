@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 4;
+let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 exibirMensagemInicial();
@@ -64,4 +64,5 @@ function verificarChute() {
         limparCampo();
     }
 }
+
 
